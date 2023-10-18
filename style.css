@@ -1,0 +1,297 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img {
+    max-width: 20%;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-weight: normal;
+}
+strong {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.about {
+    color: red;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    color: red;
+    gap: 2rem;
+    margin-bottom: 0;
+}
+li {
+    list-style: none;
+}
+header {
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: silver;
+}
+.main {
+    justify-content: space-evenly;
+    display: flex;
+    background-color: silver;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0rem;
+}
+a{
+    text-decoration: none;
+}
+.con {
+    color: red;
+}
+.new {
+    padding: 1rem;
+    margin-top: -0.2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0.3rem;
+    border-radius: 2rem;
+    border-color: blue;
+    color: blue;
+    border-style: solid;
+}
+.button {
+    color: silver;
+    background-color: blue;
+    border: 0.3rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.button:hover{
+    text-decoration: none;
+    color: silver;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    border: 1rem;
+    border-radius: 2rem;
+}
+button {
+    margin-top: 2rem;
+    border-style: none;
+    background: none
+}
+article {
+    margin-top: 3rem;
+}
+.intro {
+    font-weight: normal;
+}
+h2 {
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+.new:hover {
+    padding: 1rem;
+    margin-top: -0.2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: silver;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    background-color: blue;
+}
+.con:hover {
+    text-decoration: none;
+    color: silver;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    border: 1rem;
+    border-radius: 2rem;
+}
+img:hover {
+    max-width: 30%;
+}
+.c {
+    background-color: silver;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0rem;
+}
+.c h1 {
+    padding: 0;
+    margin: 0;
+}
+.c p {
+    padding: 0;
+    margin: 0;
+}
+.b {
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+}
+.b h1 {
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-align: center;
+    padding-top: 2rem;
+}
+.b p {
+    padding: 0;
+    margin: 0;
+}
+footer {
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+}
+footer nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.min {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+.min article {
+    width: 25%;
+    text-align: center;
+    margin: 0;
+}
+.min p{
+    margin: 0;
+}
+.secb {
+    color: silver;
+    border: 0.2rem solid;
+    border-radius: 2rem;
+    max-width: 20%;
+}
+.min article:hover{
+    background-color: silver;
+    color: blue;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.min article:hover hr{
+    color: blue;
+}
+.min article:hover img{
+    max-width: 7rem;
+}
+article {
+    margin: 0;
+}
+.icon {
+    max-width: 20px;
+    background-color: silver;
+    padding: 1.8rem;
+    border-radius: 100%;
+}
+.iconf {
+    max-width: 15px;
+    background-color: silver;
+    padding: 1.8rem;
+    border-radius: 100%;
+}
+.icon:hover {
+    max-width: 25px;
+    background-color: blue;
+}
+.iconf:hover {
+    max-width: 20px;
+    background-color: blue;
+}
+.sm {
+    display: flexs;
+    justify-content: center;
+}
+.foot {
+    padding-bottom: 2rem;
+}
+.d {
+    display: flex;
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+}
+.d h1 {
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-align: left;
+    padding-top: 2rem;
+}
+input {
+    border-radius: 2rem;
+}
+footer p{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.c h1{
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-align: center;
+    padding-top: 2rem;
+}
+.c img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: contain;
+    border-radius: 0;
+    border: solid black;
+}
+.c ul{
+    padding: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.c article{
+    text-align: center;
+    margin: 0rem;
+    background-color: blue;
+    padding: 5rem;
+}
+.e{
+    background-color: silver;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0rem; 
+    text-align: center;  
+}
+.e h1{
+    margin: 0;
+    color: black;
+    padding: 2rem;
+}
+.e p{
+    margin: 0;
+    padding-bottom: 1rem;
+}
+.e img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1rem auto;
+    display: block;
+    border: 0.5rem solid white;
+}
+.name{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.profetion{
+    color: blue;
+    padding-bottom: 2rem;
+}
